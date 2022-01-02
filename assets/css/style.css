@@ -32,6 +32,12 @@
 .header__link.active {
   color: var(--color-primary);
 }
+.menu-mobile {
+  cursor: pointer;
+  font-size: 3rem;
+  color: #ffffff;
+  display: none;
+}
 /* end header */
 
 .hero__main {
@@ -80,3 +86,60 @@
   width: 20px;
   height: 20px;
 }
+
+/* start sale off */
+.sale {
+  margin-top: 9rem;
+  margin-bottom: 9rem;
+}
+.sale__list {
+  display: flex;
+  gap: 3rem;
+}
+.sale__item {
+  background-color: var(--bg-primary);
+  display: flex;
+  align-items: center;
+  max-width: 50%;
+  flex: 0 0 50%;
+  padding: 2rem 0 2rem 1.5rem;
+  border-radius: 3px;
+}
+.sale__frame {
+  width: 20rem;
+  border: 5px solid var(--color-primary);
+  border-radius: 50%;
+  overflow: hidden;
+}
+.sale__frame:hover .sale__img {
+  transform: scale(1.2);
+}
+.sale__img {
+  border-radius: 50%;
+  transform: scale(1.1);
+  transition: transform ease-in 0.2s;
+}
+.sale__details {
+  margin-left: 1.6rem;
+  display: flex;
+  flex-direction: column;
+}
+.sale__title {
+  font-family: var(--font-heading);
+  font-size: 2.8rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+.sale__quantity {
+  font-family: var(--font-heading);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 4rem;
+  margin-bottom: 1.6rem;
+}
+.sale__discount {
+  font-size: 1.6rem;
+  margin-left: 0.8rem;
+}
+
+/* end sale */
