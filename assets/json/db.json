@@ -1,0 +1,83 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Delicious Pizza",
+      "description": "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
+      "price": 20,
+      "img": "./assets/img/products/f1.png"
+    },
+    {
+      "name": "Delicious Burger",
+      "description": "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
+      "price": "15",
+      "img": "./assets/img/products/f2.png",
+      "id": 2
+    },
+    {
+      "name": "Delicious Pizza",
+      "description": "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
+      "price": "17",
+      "img": "./assets/img/products/f3.png",
+      "id": 3
+    },
+    {
+      "name": "Delicious Pasta",
+      "description": "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
+      "price": "18",
+      "img": "./assets/img/products/f4.png",
+      "id": 4
+    },
+    {
+      "name": "French Fries",
+      "description": "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
+      "price": "10",
+      "img": "./assets/img/products/f5.png",
+      "id": 5
+    },
+    {
+      "name": "Delicious Pizza",
+      "description": "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
+      "price": "15",
+      "img": "./assets/img/products/f6.png",
+      "id": 6
+    },
+    {
+      "name": "Tasty Burger",
+      "description": "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
+      "price": "12",
+      "img": "./assets/img/products/f7.png",
+      "id": 7
+    },
+    {
+      "name": "Tasty Burger",
+      "description": "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
+      "price": "14",
+      "img": "./assets/img/products/f8.png",
+      "id": 8
+    },
+    {
+      "name": "Delicious Pasta",
+      "description": "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
+      "price": "10",
+      "img": "./assets/img/products/f9.png",
+      "id": 9
+    }
+  ],
+  "clients" : [
+      {
+          "idClient" : 1,
+          "name" : "Mike Hamell",
+          "avatar" : "./assets/img/client/client1.jpg",
+          "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quas cumque ipsam esse commodi eum possimus quam mollitia enim ullam, molestias iusto, expedita sit repudiandae dolore reprehenderit amet ducimus adipisci?",
+          "signature" : "magna aliqua"
+      },
+      {
+        "idClient" : 2,
+        "name" : "Moana Michell",
+        "avatar" : "./assets/img/client/client2.jpg",
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quas cumque ipsam esse commodi eum possimus quam mollitia enim ullam, molestias iusto, expedita sit repudiandae dolore reprehenderit amet ducimus adipisci?",
+        "signature" : "magna aliqua"
+    }
+  ]
+}

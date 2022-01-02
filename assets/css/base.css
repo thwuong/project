@@ -1,0 +1,51 @@
+:root {
+  --font-content: "Open Sans", sans-serif;
+  --font-heading: "Dancing Script", cursive;
+  --color-primary: rgb(255, 190, 51);
+  --bg-primary: #222831;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: var(--font-content);
+  font-size: 1.5rem;
+  line-height: 1;
+}
+section {
+  display: block;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+input {
+  outline: none;
+}
+.wrapper {
+  width: 100%;
+}
+.container {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.btn-primary {
+  font-size: 1.6rem;
+  padding: 10px 38px;
+  border-radius: 50px;
+  background-color: var(--color-primary);
+  transition: background-color ease-in 0.2s;
+}
+.btn-primary:hover {
+  background-color: #e69c00;
+}

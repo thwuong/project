@@ -1,0 +1,4 @@
+- npm init -> enter -> end
+- npm i json-server
+- json-server --watch db.json -> start package.json
+-npm start -> khoi dong
