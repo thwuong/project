@@ -92,43 +92,13 @@ iframe {
 }
 
 .btn-radius {
-  font-size: 1.6rem;
-  padding: 10px 12px;
+  cursor: pointer;
+  font-size: 1.8rem;
+  padding: 12px 14px;
   border-radius: 50%;
   background-color: var(--color-primary);
   transition: background-color ease-in 0.2s;
 }
 .btn-radius:hover {
   background-color: #e69c00;
-}
-.about {
-  margin-top: 9rem;
-  background-color: var(--bg-primary);
-}
-.about__main {
-  padding: 9rem 0;
-  align-items: center;
-}
-.about__box {
-  height: 600px;
-}
-.about__img {
-  width: 100%;
-  object-fit: contain;
-}
-.about__content {
-  color: #ffffff;
-}
-.about__heading {
-  font-family: var(--font-heading);
-  font-weight: 600;
-  font-size: 4rem;
-  margin-bottom: 2.4rem;
-}
-.about__desc {
-  line-height: 1.5;
-  font-size: 1.6rem;
-}
-.about__btn {
-  margin-top: 4rem;
 }
